@@ -1,0 +1,13 @@
+.card-size {
+  height: 410px;
+}
+.col-gap {
+  margin-top: 25px;
+}
+img.card-img {
+  width: 100%;
+  height: 65%;
+}
+p.card-text {
+  overflow: auto;
+}

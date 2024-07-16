@@ -1,0 +1,16 @@
+input.search-input {
+  padding: 6px;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+
+input.search-btn {
+  padding: 6px 20px;
+  margin-left: 10px;
+}
+.card-title.h5 {
+  padding: 10px;
+}
+p.card-text {
+  padding: 0px 10px;
+}

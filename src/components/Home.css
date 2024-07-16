@@ -1,0 +1,20 @@
+.home {
+  margin-left: 11%;
+  background-color: bisque;
+  width: 80vw;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+  .home {
+    height: 6vh;
+    padding-top: 8px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1180px) {
+  .home {
+    height: 56px;
+  }
+}

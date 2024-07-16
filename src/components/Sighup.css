@@ -1,0 +1,291 @@
+.adjust-signup {
+  background-color: bisque;
+  width: 65%;
+  height: 503px;
+  margin-left: 17%;
+  border: hidden;
+  border-radius: 10px;
+}
+.signup-heading {
+  color: white;
+  margin-left: 370px;
+  border-radius: 10px;
+  width: 300px;
+  height: 30px;
+  padding-top: 4px;
+}
+.signup-left-side {
+  position: absolute;
+  left: 20rem;
+  top: 14.5rem;
+}
+.signup-right-side {
+  position: absolute;
+  left: 20rem;
+  top: 23rem;
+  text-align: center;
+}
+.signup-parent {
+  position: absolute;
+  bottom: 99%;
+}
+.signup-btn {
+  width: 150px;
+  position: absolute;
+  left: 42%;
+  top: 670px;
+  padding: 0 20px;
+  border: solid blue;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+}
+.signup-password-lebel {
+  margin-left: 12rem;
+}
+
+.signup-phone-lebel {
+  margin-left: 12rem;
+}
+
+#signup-phone {
+  margin-left: 12rem;
+}
+
+#signup-password {
+  margin-left: 12rem;
+}
+
+@media only screen and (max-width: 820px) {
+  .signup-btn {
+    position: absolute;
+    top: 614px;
+    left: 7rem;
+    height: auto;
+  }
+
+  .signup-name-label {
+    width: 12rem;
+    margin-left: -267px;
+    font-size: 25px;
+    margin-bottom: 18px;
+  }
+  #signup-name {
+    position: absolute;
+    top: -13px;
+    right: -10px;
+    width: 300px;
+    padding: 6px;
+    text-align: center;
+  }
+
+  .signup-email-lebel {
+    width: 160px;
+    margin-bottom: -62px;
+    margin-left: -270px;
+    font-size: 25px;
+  }
+  #signup-email {
+    position: absolute;
+    top: 4rem;
+    right: -10px;
+    width: 300px;
+    padding: 6px;
+    text-align: center;
+  }
+
+  .signup-phone-lebel {
+    width: 15rem;
+    position: absolute;
+    right: 29px;
+    top: 55px;
+    margin-left: -227px;
+    font-size: 25px;
+  }
+  #signup-phone {
+    position: absolute;
+    top: 6rem;
+    right: -10px;
+    width: 300px;
+    padding: 6px;
+    text-align: center;
+  }
+
+  .signup-password-lebel {
+    margin-left: -227px;
+    padding-top: 0;
+    position: absolute;
+    right: 83px;
+    top: 122px;
+    width: 200px;
+    font-size: 25px;
+  }
+  #signup-password {
+    position: absolute;
+    top: 10rem;
+    width: 300px;
+    padding: 6px;
+    right: -10px;
+    text-align: center;
+  }
+  .adjust-signup {
+    width: 338px;
+    height: 600px;
+    margin-left: 11px;
+  }
+  .signup-heading {
+    margin-left: 1rem;
+    width: 300px;
+    height: 44px;
+    padding-top: 8px;
+    font-size: larger;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .adjust-signup {
+    width: 500px;
+    margin-left: 20vw;
+    height: 600px;
+  }
+
+  #signup-name,
+  #signup-email {
+    position: absolute;
+    left: -8rem;
+    width: 55vw;
+  }
+  #signup-phone,
+  #signup-password {
+    position: absolute;
+    left: -320px;
+    width: 55vw;
+  }
+  .signup-parent {
+    margin-left: -127px;
+    margin-right: -142px;
+  }
+  .signup-btn {
+    margin-left: 225px;
+  }
+  .signup-heading {
+    margin-left: 7rem;
+  }
+}
+
+@media (min-width: 912px) {
+  .signup-name-label {
+    margin-bottom: 25px;
+    font-size: 20px;
+    margin-left: -112px;
+  }
+  #signup-name {
+    margin-top: -17px;
+    width: 450px;
+    margin-left: 16px;
+    height: 40px;
+  }
+  .signup-phone-lebel {
+    margin-bottom: -68px;
+    font-size: 20px;
+    margin-left: -112px;
+  }
+  #signup-phone {
+    width: 450px;
+    margin-left: 207px;
+    margin-top: 80px;
+    height: 40px;
+  }
+  .signup-email-lebel {
+    font-size: 20px;
+    margin-left: -112px;
+    margin-bottom: -29px;
+  }
+  #signup-email {
+    margin-top: 45px;
+    width: 450px;
+    margin-left: 15px;
+    height: 40px;
+  }
+  .signup-password-lebel {
+    font-size: 20px;
+    margin-left: -112px;
+    margin-bottom: -132px;
+  }
+  #signup-password {
+    margin-top: 150px;
+    width: 450px;
+    margin-left: 207px;
+    height: 40px;
+  }
+  .signup-btn {
+    margin-top: -550px;
+    margin-left: -28px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .signup-name-label {
+    width: 200px;
+    margin-left: 17px;
+  }
+  #signup-name {
+    width: 310px;
+    padding-left: 15px;
+  }
+  .signup-phone-lebel {
+    width: 200px;
+    margin-bottom: -123px;
+    margin-left: -312px;
+  }
+  #signup-phone {
+    padding-left: 15px;
+    position: absolute;
+    left: -193px;
+    top: 55px;
+    width: 310px;
+  }
+  .signup-email-lebel {
+    margin-bottom: 163px;
+    margin-left: 402px;
+    width: 200px;
+  }
+  #signup-email {
+    padding-left: 15px;
+    position: absolute;
+    top: -198px;
+    width: 310px;
+    left: 423px;
+  }
+  .signup-password-lebel {
+    margin-bottom: 13px;
+    width: 200px;
+    margin-left: 411px;
+  }
+  #signup-password {
+    padding-left: 15px;
+    position: absolute;
+    top: -151px;
+    width: 310px;
+    left: 231px;
+  }
+  .signup-btn {
+    margin-top: -200px;
+    margin-left: 25px;
+  }
+}
+
+@media (min-width: 912px) and (max-width: 1368px) {
+  .signup-btn {
+    margin-top: -63px;
+  }
+}
+input {
+  border: hidden;
+  border-radius: 5px;
+}
+button.signup-btn {
+  padding: 4px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
